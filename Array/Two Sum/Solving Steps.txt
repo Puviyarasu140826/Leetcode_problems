@@ -1,1 +1,19 @@
+Here you can find the steps for solving "TWO SUM" leetcode problem...
 
+Two Sum is the first prblem on leetcode.
+
+Problem Statement:
+      Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.You may assume that each input would have exactly one solution, and you may not use the same element twice.You can return the answer in any order.
+
+Steps to solve:
+  1. Create one unordered map to store the key-value pairs for given array.
+  
+  2. Use any loops for access the elements of the array.
+  
+  3. Subtract evey element of the array with target value to find the other element pair.
+  
+  4. Use count() method to find whether the addition pair is exist or not.
+  
+  5. If exist, return the index of both the values.
+  
+  6. If not exist, create key-value pair for that element to check further elements.
