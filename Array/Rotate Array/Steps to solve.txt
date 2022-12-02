@@ -1,1 +1,15 @@
+Here you can find the steps for solving "Rotate Array" leetcode problem...
 
+Rotate Array is the 189th problem on leetcode.
+
+Problem Statement:
+      Given an array, rotate the array to the right by k steps, where k is non-negative.
+
+Steps to solve:
+  1. Take modulo division for k value by number of elements in the array to avoid more number of rotation.
+  
+  2. Reverse the whole array first.
+  
+  3. Again reverse the first k elements in the previously reversed array.
+  
+  4. Finally reverse the balance elements for the full rotation of the array.
