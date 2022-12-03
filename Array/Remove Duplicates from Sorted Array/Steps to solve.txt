@@ -1,1 +1,19 @@
+Here you can find the steps for solving "Remove Duplicates from Sorted Array" leetcode problem...
 
+Remove Duplicates from Sorted Array is the 26th problem on leetcode.
+
+Problem Statement:
+      Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.
+
+Steps to solve:
+  1. Take two pointer approach for solving this problem.
+  
+  2. Assign two pointers on the index of one(because the first element is always stay at that position 0).
+  
+  3. Run the loop for move the pointers till the array end.
+  
+  4. The left pointer holds the position for remove the duplicates.
+  
+  5. The right pointer checks the element through out the array. If the current element and previous elements are different then it copies the current element        to the previous position.
+  
+  6. The left pointer will only incremented when the current element and previous element are different.
