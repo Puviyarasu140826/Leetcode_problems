@@ -1,1 +1,19 @@
+Here you can find the steps for solving "Remove Element" leetcode problem...
 
+Remove Element is the 27th problem on leetcode.
+
+Problem Statement:
+      Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed.Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the first part of the array nums. More formally, if there are k elements after removing the duplicates, then the first k elements of nums should hold the final result. It does not matter what you leave beyond the first k elements.Return k after placing the final result in the first k slots of nums.
+
+Steps to solve:
+  1. Take two pointer approach for solving this problem.
+  
+  2. Assign two pointers on the index of zero to check all the elements.
+  
+  3. Run the loop for move the pointers till the array end.
+  
+  4. The left pointer holds the position for remove the duplicates.
+  
+  5. The right pointer checks the element through out the array. If the current element and previous elements are different then it copies the current element        to the previous position.
+  
+  6. The left pointer will only incremented when the current element and previous element are different.
