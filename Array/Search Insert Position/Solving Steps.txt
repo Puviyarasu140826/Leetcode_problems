@@ -1,1 +1,19 @@
+Here you can find the steps for solving "Search Insert Position" leetcode problem...
 
+Search Insert Position is the 35th problem on leetcode.
+
+Problem Statement:
+      Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+Steps to solve:
+  1. Check the array elements for the existence of target value.
+  
+  2. If it is not present in the array, then search for the insert position.
+  
+  3. If the target value is less than first element of the array, then return the index as 0.
+  
+  4. If the target value is greater than last element of the array, then return the index as (array size-1).
+  
+  5. Otherwise compare all the elements in array with target value.
+  
+  6.If the target value is less than next value and greater than previous value, return the next value position.
