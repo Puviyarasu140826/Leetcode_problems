@@ -1,1 +1,16 @@
+Here you can find the steps for solving "Plus One" leetcode problem...
 
+Plus One is the 66th problem on leetcode.
+
+Problem Statement:
+      You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.Increment the large integer by one and return the resulting array of digits.
+
+Steps to solve:
+  1. First reverse the given array.
+  
+  2. Check the first digit on the reversed array, If the digit is 9. then add 0.
+  
+  3. If the digit is except 9, then add 1.
+  
+  4. Reverse the array for the desired output.
+ 
