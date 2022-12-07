@@ -1,1 +1,15 @@
+Here you can find the steps for solving "Merge Sorted Array" leetcode problem...
 
+Merge Sorted Array is the 88th problem on leetcode.
+
+Problem Statement:
+      You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.Merge nums1 and nums2 into a single array sorted in non-decreasing order. The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
+
+Steps to solve:
+  1. The first array having the array size of both the array element count.
+  
+  2. Assign one pointer to the last index of the first array.
+  
+  3. Copy the second array elements to the first array at the end.
+  
+  4. Sort the first array to get the desired output..
