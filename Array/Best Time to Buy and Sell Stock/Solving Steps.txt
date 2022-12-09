@@ -1,1 +1,19 @@
+Here you can find the steps for solving "Best Time to Buy and Sell Stock" leetcode problem...
 
+Best Time to Buy and Sell Stock is the 121th problem on leetcode.
+
+Problem Statement:
+      You are given an array prices where prices[i] is the price of a given stock on the ith day.You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+
+Steps to solve:
+  1. Choose two pointer approach for solving this problem.
+  
+  2. Assign left pointer for first element and right element for second element and traverse the array till end.
+  
+  3. If right element is max than left element then subtract those elements.
+  
+  4. Store the subtracted element in one variable.
+  
+  5. Find maximum of subtracted value and previously subtracted value.
+  
+  6. Return the maximum difference element.
