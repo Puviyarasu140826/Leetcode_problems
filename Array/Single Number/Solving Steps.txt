@@ -1,1 +1,15 @@
+Here you can find the steps for solving "Single Number" leetcode problem...
 
+Single Number is the 136th problem on leetcode.
+
+Problem Statement:
+      Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.You must implement a solution with a linear runtime complexity and use only constant extra space.
+
+Steps to solve:
+  1. Traverse the array from first element to previous to the last element through loop.
+  
+  2. Compare the current element and next element.
+  
+  3. If it is equal, just continue the iteration.
+  
+  4. If it is not equal, return that element.
