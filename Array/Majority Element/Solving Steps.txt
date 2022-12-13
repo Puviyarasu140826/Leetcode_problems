@@ -1,1 +1,21 @@
+Here you can find the steps for solving "Majority Element" leetcode problem...
 
+Majority Element Stock is the 169th problem on leetcode.
+
+Problem Statement:
+      Given an array nums of size n, return the majority element.The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+
+Steps to solve:
+  1. Use boyere-moore algorithm for this problem.
+  
+  2. Create temp variable and store the first element of the array.
+  
+  3. Run the loop for traversing the array completely.
+  
+  4. If the temp value is equal to iterating values, then increase the count.
+  
+  5. Tf the iterating value is different, then decrease the count.
+  
+  6. If the count gets 0, then store the current value to temp variable and make cnt as 1.
+  
+  7. Return the final value of t.
