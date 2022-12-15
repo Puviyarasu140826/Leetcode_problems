@@ -1,1 +1,16 @@
+Here you can find the steps for solving "Contains Duplicate" leetcode problem...
 
+Contains Duplicate is the 217th problem on leetcode.
+
+Problem Statement:
+      Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+Steps to solve:
+  1. Use unordered map to solve this problem.
+  
+  2. Create key-value pair for every element in the array.
+  
+  3. If the value in map is greater than 1, then return true(duplicate value).
+  
+  4. If there is no duplicate, return false.
+ 
