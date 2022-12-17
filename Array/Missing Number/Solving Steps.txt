@@ -1,1 +1,16 @@
+Here you can find the steps for solving "Missing Number" leetcode problem...
+
+Missing Number is the 268th problem on leetcode.
+
+Problem Statement:
+      Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
+
+Steps to solve:
+  1. Create map for allocate values for the keys.
+  
+  2. Create values for keys using for each loop.
+  
+  3. Check the map for missing number by iterating natural numbers continously and comapre with the map.
+  
+  4. Return the missing number.
 
