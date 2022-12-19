@@ -1,6 +1,6 @@
 Here you can find the steps for solving "Majority Element" leetcode problem...
 
-Majority Element Stock is the 169th problem on leetcode.
+Majority Element is the 169th problem on leetcode.
 
 Problem Statement:
       Given an array nums of size n, return the majority element.The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
