@@ -1,1 +1,15 @@
+Here you can find the steps for solving "Move Zeroes" leetcode problem...
 
+Move Zeroes is the 283th problem on leetcode.
+
+Problem Statement:
+      Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.Note that you must do this in-place without making a copy of the array.
+
+Steps to solve:
+  1. Traverse the array completely using loop.
+  
+  2. Check the current element for 0. If it is 0 then swap with the next element.
+  
+  3. Continue this process until all the zeros are stored in end of the array.
+  
+  4. Return the array.
