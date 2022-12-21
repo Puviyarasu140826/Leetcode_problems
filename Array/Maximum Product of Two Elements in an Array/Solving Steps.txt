@@ -1,1 +1,13 @@
+Here you can find the steps for solving "Maximum Product of Two Elements in an Array" leetcode problem...
 
+Maximum Product of Two Elements in an Array is the 1464th problem on leetcode.
+
+Problem Statement:
+      Given the array of integers nums, you will choose two different indices i and j of that array. Return the maximum value of (nums[i]-1)*(nums[j]-1).
+
+Steps to solve:
+  1. Sort the array for getting highest values at the end.
+  
+  2. Choose the last two elements for multiplying in the above equation.
+  
+  3. Return the answer.
