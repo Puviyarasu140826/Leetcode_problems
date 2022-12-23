@@ -1,1 +1,18 @@
+Here you can find the steps for solving "Average Salary Excluding the Minimum and Maximum Salary" leetcode problem...
+
+Average Salary Excluding the Minimum and Maximum Salary is the 1491th problem on leetcode.
+
+Problem Statement:
+      You are given an array of unique integers salary where salary[i] is the salary of the ith employee.Return the average salary of employees excluding the minimum and maximum salary. Answers within 10-5 of the actual answer will be accepted.
+
+Steps to solve:
+  1. Find maximum and minimum element in the given array.
+  
+  2. Find the sum of the whole array.
+  
+  3. Subtract the sum with min and max of the array.
+  
+  4. Find the average for the above answer.
+  
+  5. Return the average.
 
