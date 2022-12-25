@@ -1,1 +1,15 @@
+Here you can find the steps for solving "Most Frequent Even Element" leetcode problem...
 
+Most Frequent Even Element is the 2404th problem on leetcode.
+
+Problem Statement:
+      Given an integer array nums, return the most frequent even element.If there is a tie, return the smallest one. If there is no such element, return -1.
+
+Steps to solve:
+  1. Create the map to store key value pair for even elements.
+  
+  2. Run the loop to store the even elements in map.
+  
+  3. Find the maximum occurence of even elements.
+  
+  4. Return the maximum element
