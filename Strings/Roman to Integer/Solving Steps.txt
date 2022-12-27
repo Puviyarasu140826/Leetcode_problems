@@ -1,1 +1,14 @@
+Here you can find the steps for solving "Roman to Integer" leetcode problem...
 
+Roman to Integer is the 13th problem on leetcode.
+
+Problem Statement:
+      Given a roman numeral, convert it to an integer.
+
+Steps to solve:
+  1. First check the type of roman letter.
+  
+  2. Convert the roman numeral to integers based on the table given in problem.
+  
+  3. Return the integer.
+ 
