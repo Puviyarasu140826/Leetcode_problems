@@ -1,1 +1,20 @@
+Here you can find the steps for solving "Valid Parentheses" leetcode problem...
 
+Valid Parentheses is the 20th problem on leetcode.
+
+Problem Statement:
+      Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.An input string is valid if:
+Open brackets must be closed by the same type of brackets.Open brackets must be closed in the correct order.Every close bracket has a corresponding open bracket of the same type.
+
+Steps to solve:
+  1. Stack is the best option for this problem.
+  
+  2. First push all the open braces on stack.
+  
+  3. Then check for the pair braces in stack.
+  
+  4. If the pair braces is found then pop that on stack.
+  
+  5. If it is not found, return false.
+  
+  6. Atlast if the stack is empty, return true.
