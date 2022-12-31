@@ -1,1 +1,15 @@
+Here you can find the steps for solving "Valid Anagram" leetcode problem...
 
+Valid Anagram is the 242th problem on leetcode.
+
+Problem Statement:
+      Given two strings s and t, return true if t is an anagram of s, and false otherwise.An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+Steps to solve:
+  1. Sort the given two strings.
+  
+  2. Compare the two sorted strings.
+  
+  3. If it is same. return true.
+  
+  4. Otherwise return false.
