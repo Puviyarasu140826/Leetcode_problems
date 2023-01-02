@@ -1,1 +1,17 @@
+Here you can find the steps for solving "Reverse Words in a String III" leetcode problem...
 
+Reverse Words in a String III is the 557th problem on leetcode.
+
+Problem Statement:
+      Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+
+Steps to solve:
+  1. Create one empty temporary string.
+  
+  2. Traverse the array till the pace character exists.
+  
+  3. If it exits then, store the previous word in temporary string.
+  
+  4. Continue this till the sentence get end.
+  
+  5. Return the temp string.
