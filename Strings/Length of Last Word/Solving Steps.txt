@@ -1,1 +1,15 @@
+Here you can find the steps for solving "Length of Last Word" leetcode problem...
 
+Length of Last Word is the 58th problem on leetcode.
+
+Problem Statement:
+      Given a string s consisting of words and spaces, return the length of the last word in the string.A word is a maximal substring consisting of non-space characters only.
+
+Steps to solve:
+  1. Iterate the loop by backwards.
+  
+  2. Check for blank space from last.
+  
+  3. Until getting blank space increment the count variable for every charcters.
+  
+  4. Return the count after getting blank space from last.
