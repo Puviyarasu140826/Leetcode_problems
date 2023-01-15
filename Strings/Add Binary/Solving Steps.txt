@@ -1,1 +1,19 @@
+Here you can find the steps for solving "Add Binary leetcode problem...
 
+Add Binary is the 67th problem on leetcode.
+
+Problem Statement:
+      Given two binary strings a and b, return their sum as a binary string.
+
+Steps to solve:
+  1. Iterate both strings from last by adding charecter by charcter. 
+  
+  2. Create sum, carry, avue, bvalue for doing operations.
+  
+  3. Convert string to int by subtract with char '0'.
+  
+  4. Then store the ans in temp string.
+  
+  5. Continue this process until getting the string is over.
+  
+  6. Return the ans string.
