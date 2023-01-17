@@ -1,1 +1,17 @@
+Here you can find the steps for solving "Reverse Vowels of a String" leetcode problem...
 
+Reverse Vowels of a String is the 345th problem on leetcode.
+
+Problem Statement:
+      Given a string s, reverse only all the vowels in the string and return it.The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both lower and upper cases, more than once.
+
+Steps to solve:
+  1. Take two pointer approach for this problem.
+  
+  2. Itertae one from start and another from end of the string.
+  
+  3. If both pointer elements are vowels then swap those vowels.
+  
+  4. Continue this process until the start meets the end pointer.
+  
+  5. Return the string.
